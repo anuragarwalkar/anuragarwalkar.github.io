@@ -1,23 +1,27 @@
 {
   "files": {
-    "main.css": "/anuragarwalkar/static/css/main.58861e42.chunk.css",
-    "main.js": "/anuragarwalkar/static/js/main.99f8d537.chunk.js",
-    "main.js.map": "/anuragarwalkar/static/js/main.99f8d537.chunk.js.map",
+    "main.css": "/anuragarwalkar/static/css/main.1cbd3954.chunk.css",
+    "main.js": "/anuragarwalkar/static/js/main.78bdab26.chunk.js",
+    "main.js.map": "/anuragarwalkar/static/js/main.78bdab26.chunk.js.map",
     "runtime-main.js": "/anuragarwalkar/static/js/runtime-main.820edafd.js",
     "runtime-main.js.map": "/anuragarwalkar/static/js/runtime-main.820edafd.js.map",
-    "static/js/2.4364be3e.chunk.js": "/anuragarwalkar/static/js/2.4364be3e.chunk.js",
-    "static/js/2.4364be3e.chunk.js.map": "/anuragarwalkar/static/js/2.4364be3e.chunk.js.map",
+    "static/css/2.d7c8ea9a.chunk.css": "/anuragarwalkar/static/css/2.d7c8ea9a.chunk.css",
+    "static/js/2.aa2d0e0a.chunk.js": "/anuragarwalkar/static/js/2.aa2d0e0a.chunk.js",
+    "static/js/2.aa2d0e0a.chunk.js.map": "/anuragarwalkar/static/js/2.aa2d0e0a.chunk.js.map",
     "index.html": "/anuragarwalkar/index.html",
-    "precache-manifest.e70e5831142761889de8a4a96a675b5d.js": "/anuragarwalkar/precache-manifest.e70e5831142761889de8a4a96a675b5d.js",
+    "precache-manifest.670ef9abea3c850300ec1b29d33c99ae.js": "/anuragarwalkar/precache-manifest.670ef9abea3c850300ec1b29d33c99ae.js",
     "service-worker.js": "/anuragarwalkar/service-worker.js",
-    "static/css/main.58861e42.chunk.css.map": "/anuragarwalkar/static/css/main.58861e42.chunk.css.map",
-    "static/js/2.4364be3e.chunk.js.LICENSE.txt": "/anuragarwalkar/static/js/2.4364be3e.chunk.js.LICENSE.txt",
-    "static/media/anurag_arwalkar.jpg": "/anuragarwalkar/static/media/anurag_arwalkar.9d44900d.jpg"
+    "static/css/2.d7c8ea9a.chunk.css.map": "/anuragarwalkar/static/css/2.d7c8ea9a.chunk.css.map",
+    "static/css/main.1cbd3954.chunk.css.map": "/anuragarwalkar/static/css/main.1cbd3954.chunk.css.map",
+    "static/js/2.aa2d0e0a.chunk.js.LICENSE.txt": "/anuragarwalkar/static/js/2.aa2d0e0a.chunk.js.LICENSE.txt",
+    "static/media/anurag_arwalkar.jpg": "/anuragarwalkar/static/media/anurag_arwalkar.77c420af.jpg",
+    "static/media/all.css": "/anuragarwalkar/static/media/fa-solid-900.f51cfef6.ttf"
   },
   "entrypoints": [
     "static/js/runtime-main.820edafd.js",
-    "static/js/2.4364be3e.chunk.js",
-    "static/css/main.58861e42.chunk.css",
-    "static/js/main.99f8d537.chunk.js"
+    "static/css/2.d7c8ea9a.chunk.css",
+    "static/js/2.aa2d0e0a.chunk.js",
+    "static/css/main.1cbd3954.chunk.css",
+    "static/js/main.78bdab26.chunk.js"
   ]
 }
