@@ -1,7 +1,7 @@
-import * as React from 'react';
+import React from 'react';
 import './Navbar.scss';
 
-const NavBar = () => {
+const Navbar = () => {
     return (
         <div className="navbar">
         <div className="navbar__heading">
@@ -10,7 +10,7 @@ const NavBar = () => {
         </div>
 
         <div className="navbar__menu">
-            <div className="navbar__menu__nav-link">Home</div>
+            <div className="navbar__menu__nav-link">About</div>
             <div className="navbar__menu__nav-link">Resume</div>
             <div className="navbar__menu__nav-link">Projects</div>
             <div className="navbar__menu__nav-link">Contact</div>
@@ -20,4 +20,4 @@ const NavBar = () => {
     )
 }
 
-export default NavBar;
+export default Navbar;
