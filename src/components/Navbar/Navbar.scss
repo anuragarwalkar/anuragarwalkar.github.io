@@ -1,0 +1,26 @@
+.navbar {
+    display: flex;
+    justify-content: space-between;
+    padding: 2rem 20rem;
+
+    h1{
+        margin: 1rem 0;
+    }
+
+    &__menu {
+        display: flex;
+        justify-content: space-between;
+        align-items: flex-end;
+        width: 20vw;
+
+
+        &__nav-link {
+            padding: 0.5rem;
+        }
+        &__nav-link:hover {
+            cursor: pointer;
+            border-radius: 2px;
+            background: #F5F5F5;
+        }
+    }
+}
