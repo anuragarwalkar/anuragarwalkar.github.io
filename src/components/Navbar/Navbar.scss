@@ -15,11 +15,14 @@
 
         &__nav-link {
             padding: 0.5rem;
+            text-decoration: none;
+            color: black;
         }
         &__nav-link:hover {
             cursor: pointer;
             border-radius: 2px;
-            background: #F5F5F5;
+            background-color: #1976D2;
+            color: #fff;
         }
     }
 }
