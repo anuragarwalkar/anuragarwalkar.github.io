@@ -16,7 +16,9 @@ const About = () => {
           programming, Apart from web development I like to share my skills
           through YouTube. Check out my GitHub or YouTube page for more info
         </p>
-        <button className="about__info--download-btn btn"><i className="fas fa-arrow-circle-down"></i> Download Resume</button>
+        <div>
+        <a className="about__info--download-btn btn" href="/files/pdf/anurags_resume.pdf" download><i className="fas fa-arrow-circle-down"></i> Download Resume</a>
+        </div>
         <div style={{marginTop:'1rem'}}>
           <a
             href="https:/www.youtube.com/anuragcreation7/"

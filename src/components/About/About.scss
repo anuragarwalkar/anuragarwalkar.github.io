@@ -18,8 +18,11 @@
         margin-left: 4rem;
         width: 60%;
 
+        &--download-btn {
+            display: inline-block;;
+        }
+
         &--download-btn:hover {
-            transition-delay: 0.3s;
             background-color: #115293;
         }
 
