@@ -16,26 +16,35 @@ const About = () => {
           programming, Apart from web development I like to share my skills
           through YouTube. Check out my GitHub or YouTube page for more info
         </p>
-        <div>
-        <a className="about__info--download-btn btn" href="/files/pdf/anurags_resume.pdf" download><i className="fas fa-arrow-circle-down"></i> Download Resume</a>
-        </div>
-        <div style={{marginTop:'1rem'}}>
+        <div className="about__info__download">
           <a
-            href="https:/www.youtube.com/anuragcreation7/"
+            className="about__info--download-btn btn"
+            href="/files/pdf/anurags_resume.pdf"
+            download
+          >
+            <i className="fas fa-arrow-circle-down"></i> Download Resume
+          </a>
+        </div>
+        <div className="about__info__social">
+          <a
+            className="about__info__social--youtube"
+            href="https://www.youtube.com/anuragcreation7"
             rel="noopener noreferrer"
             target="_blank"
           >
             <i className="fab fa-youtube fa-lg"></i>
           </a>
           <a
-            href="https://www.instagram.com/anuragarwalkar/"
+            className="about__info__social--github"
+            href="https://github.com/anuragarwalkar"
             rel="noopener noreferrer"
             target="_blank"
           >
             <i className="fab fa-github fa-lg"></i>
           </a>
           <a
-            href="https://www.instagram.com/anuragarwalkar/"
+            className="about__info__social--instagram"
+            href="https://www.instagram.com/anuragarwalkar"
             rel="noopener noreferrer"
             target="_blank"
           >

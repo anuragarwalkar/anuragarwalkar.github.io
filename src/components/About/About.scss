@@ -1,11 +1,13 @@
 .about {
-    display: flex;
-    justify-content: flex-start;
-    height: 30rem;
+    display: grid;
+    justify-content: center;
     align-items: center;
 
 
     &__photo {
+        display: flex;
+        justify-content: center;
+
         img {
             border: 1px solid #ddd;
             border-radius: 50%;
@@ -15,11 +17,14 @@
     }
 
     &__info {
-        margin-left: 4rem;
-        width: 60%;
+        padding: 0 1rem;
 
         &--download-btn {
             display: inline-block;;
+        }
+
+        &__download {
+            text-align: center;
         }
 
         &--download-btn:hover {
@@ -30,5 +35,49 @@
             font-size: 1.5rem;
             margin-right: 1rem;
         }
+
+        &__social {
+          height: 4rem;  
+          display: flex;
+          justify-content: center;
+          align-items: center;
+
+          &--youtube {
+              color: red;
+          }
+
+          &--instagram {
+            color: #F0722A;
+          }
+
+          &--github {
+              color: black;
+          }
+        }
+    }
+
+    a {
+        outline: none;
+    }
+
+}
+
+
+@media screen and (min-width: 600px) {
+    .about { 
+        margin-top: 10%;
+        grid-template-columns: 30% 1fr;
+        justify-content: start;
+
+        &__info {
+            &__download {
+                text-align: left;
+            }  
+
+            &__social {
+                justify-content: flex-start;
+            }
+        }
+
     }
 }

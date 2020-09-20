@@ -1,24 +1,38 @@
-import React from 'react';
-import './Navbar.scss';
-import { Link } from 'react-router-dom';
+import React, { useState } from "react";
+import "./Navbar.scss";
+import Backdrop from "../Backdrop/Backdrop";
+import NavLink from "./NavLinks/NavLink";
 
 const Navbar = () => {
-    return (
-        <div className="navbar">
-        <div className="navbar__heading">
-            <h1>Anurag Arwalkar</h1>
-            <span>Full Stack Web Developer</span>
-        </div>
+  const [showNav, setShowNav] = useState(false);
 
-        <div className="navbar__menu">
-            <Link to="/" className="navbar__menu__nav-link">Home</Link>
-            <Link to="/projects" className="navbar__menu__nav-link">Projects</Link>
-            <Link to="/contact" className="navbar__menu__nav-link">Contact</Link>
-            <Link to="/about" className="navbar__menu__nav-link">About</Link>
-        </div>
+  const mobileNav = ["navbar__mobile-nav", showNav ? "show-nav" : ""];
 
+  return (
+    <div className="navbar">
+      <div className={mobileNav.join(" ")}>
+      <NavLink />
+      </div>
+      <div className="navbar__heading">
+        <div className="navbar__heading--bars">
+          <i
+            className="fas fa-bars"
+            onClick={() => {
+              setShowNav(true);
+            }}
+          ></i>
         </div>
-    )
-}
+        <div>
+          <h1>Anurag Arwalkar</h1>
+          <span>Full Stack Web Developer</span>
+        </div>
+      </div>
+      <Backdrop hide={() => setShowNav(false)} show={showNav}></Backdrop>
+      <div className="navbar__menu">
+        <NavLink />
+      </div>
+    </div>
+  );
+};
 
 export default Navbar;

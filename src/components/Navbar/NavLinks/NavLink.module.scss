@@ -1,0 +1,33 @@
+.navbarMenu {
+    display: flex;
+    flex-flow: column;
+    justify-content: space-between;
+    align-items: flex-start;
+}
+
+.navBarLink {
+    display: flex;
+    padding: 0.5rem;
+    text-decoration: none;
+    color: black;
+}
+
+.navBarLink:hover {
+    cursor: pointer;
+    border-radius: 2px;
+    background-color: #1976d2;
+    color: #fff;
+}
+
+.navBarLink:active {
+    color: white;
+}
+
+
+@media screen and(min-width: 600px) {
+    .navbarMenu {
+        flex-flow: row;
+        align-items: center;
+    }
+
+}
