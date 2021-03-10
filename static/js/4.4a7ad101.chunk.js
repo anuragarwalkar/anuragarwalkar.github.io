@@ -1,2 +1,0 @@
-(this["webpackJsonpanurag-resume"]=this["webpackJsonpanurag-resume"]||[]).push([[4],{40:function(e,n,t){"use strict";t.r(n);var a=t(0),u=t.n(a);n.default=function(){return u.a.createElement("div",null,"contact me")}}}]);
-//# sourceMappingURL=4.4a7ad101.chunk.js.map

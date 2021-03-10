@@ -1,1 +1,0 @@
-{"version":3,"sources":["Components/Contact/Contact.tsx"],"names":["Contact"],"mappings":"qHAAA,2BAUeA,UARC,WACZ,OACI","file":"static/js/4.4a7ad101.chunk.js","sourcesContent":["import React from 'react';\r\n\r\nconst Contact = () => {\r\n    return (\r\n        <div>\r\n            contact me\r\n        </div>\r\n    )\r\n}\r\n\r\nexport default Contact;"],"sourceRoot":""}
