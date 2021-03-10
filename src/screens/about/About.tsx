@@ -1,8 +1,12 @@
 import React from "react";
+import myPhoto from "../../assets/images/anurag_arwalkar.jpg";
+import environment from "../../environment/environment";
+import useTitle from "../../hooks/useTitle";
 import "./About.scss";
-import myPhoto from "../../Assets/images/anurag_arwalkar.jpg";
 
 const About = () => {
+  useTitle("About");
+
   return (
     <div className="about">
       <div className="about__photo">
@@ -11,15 +15,16 @@ const About = () => {
       <div className="about__info">
         <h1>About Me</h1>
         <p>
-          I Anurag working as a Full Stack Web developer having a total of 4.5
-          years of experience in this industry and from last 2 Years doing
-          programming, Apart from web development I like to share my skills
-          through YouTube. Check out my GitHub or YouTube page for more info
+          I Anurag Self-motivated IT professional with good knowledge and
+          proficiency in HTML, CSS, JavaScript. Expertise in frameworks like
+          React.js, Angular, Node.js and great knowledge of No SQL database like
+          MongoDb as well as strong skills and ability in writing clean and
+          efficient code. check out my work on GitHub.
         </p>
         <div className="about__info__download">
           <a
             className="about__info--download-btn btn"
-            href="/files/pdf/anurags_resume.pdf"
+            href={environment.downloadResume}
             download
           >
             <i className="fas fa-arrow-circle-down"></i> Download Resume
@@ -28,7 +33,7 @@ const About = () => {
         <div className="about__info__social">
           <a
             className="about__info__social--youtube"
-            href="https://www.youtube.com/anuragcreation7"
+            href="https://www.youtube.com/anuragarwalkar"
             rel="noopener noreferrer"
             target="_blank"
           >

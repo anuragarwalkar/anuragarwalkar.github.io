@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.scss";
-import Backdrop from "../Backdrop/Backdrop";
+import Backdrop from "../backdrop/Backdrop";
 import NavLink from "./NavLinks/NavLink";
 
 const Navbar = () => {
