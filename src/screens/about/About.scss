@@ -1,83 +1,91 @@
 .about {
-    display: grid;
+  display: grid;
+  justify-content: center;
+  align-items: center;
+
+  &__photo {
+    display: flex;
     justify-content: center;
-    align-items: center;
 
+    img {
+      border: 1px solid #ddd;
+      border-radius: 50%;
+      padding: 5px;
+      width: 300px;
+    }
+  }
 
-    &__photo {
-        display: flex;
-        justify-content: center;
+  &__info {
+    padding: 0 1rem;
 
-        img {
-            border: 1px solid #ddd;
-            border-radius: 50%;
-            padding: 5px;
-            width: 300px;
-        }
+    &--download-btn {
+      display: inline-block;
     }
 
-    &__info {
-        padding: 0 1rem;
-
-        &--download-btn {
-            display: inline-block;;
-        }
-
-        &__download {
-            text-align: center;
-        }
-
-        &--download-btn:hover {
-            background-color: #115293;
-        }
-
-        .fab {
-            font-size: 1.5rem;
-            margin-right: 1rem;
-        }
-
-        &__social {
-          height: 4rem;  
-          display: flex;
-          justify-content: center;
-          align-items: center;
-
-          &--youtube {
-              color: red;
-          }
-
-          &--instagram {
-            color: #F0722A;
-          }
-
-          &--github {
-              color: black;
-          }
-        }
+    &__download {
+      text-align: center;
     }
 
-    a {
-        outline: none;
+    &--download-btn:hover {
+      background-color: #115293;
     }
 
+    .fab {
+      font-size: 1.5rem;
+      margin-right: 1.4rem;
+    }
+
+    &__social {
+      height: 4rem;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+
+      &--youtube {
+        color: red;
+      }
+
+      &--instagram {
+        color: #f0722a;
+      }
+
+      &--github {
+        color: black;
+      }
+
+      &--medium {
+        color: black;
+      }
+
+      &--twitter {
+        color: #1da1f2;
+      }
+
+      &--stack-overflow {
+        color: #f48024;
+      }
+    }
+  }
+
+  a {
+    outline: none;
+  }
 }
 
-
 @media screen and (min-width: 600px) {
-    .about { 
-        margin-top: 10%;
-        grid-template-columns: 30% 1fr;
-        justify-content: start;
+  .about {
+    margin-top: 10%;
+    grid-template-columns: 30% 1fr;
+    justify-content: start;
 
-        &__info {
-            &__download {
-                text-align: left;
-            }  
+    &__info {
+      &__download {
+        text-align: left;
+      }
 
-            &__social {
-                justify-content: flex-start;
-            }
-        }
-
+      &__social {
+        justify-content: flex-start;
+      }
     }
+  }
 }
