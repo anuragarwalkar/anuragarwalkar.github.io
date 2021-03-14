@@ -12,6 +12,7 @@
       border-radius: 50%;
       padding: 5px;
       width: 300px;
+      height: 300px;
     }
   }
 
@@ -30,16 +31,16 @@
       background-color: #115293;
     }
 
-    .fab {
-      font-size: 1.5rem;
-      margin-right: 1.4rem;
-    }
-
     &__social {
       height: 4rem;
       display: flex;
-      justify-content: center;
+      margin-top: 1rem;
+      justify-content: space-around;
       align-items: center;
+
+      .fab {
+        font-size: 1.5rem;
+      }
 
       &--youtube {
         color: red;
@@ -84,7 +85,8 @@
       }
 
       &__social {
-        justify-content: flex-start;
+        width: 35%;
+        justify-content: space-between;
       }
     }
   }
