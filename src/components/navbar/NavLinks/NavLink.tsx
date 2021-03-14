@@ -1,10 +1,10 @@
-import React from "react";
+import React, { FC } from "react";
 import { Link } from "react-router-dom";
 import styles from "./NavLink.module.scss";
 
 export interface NavLinkProps {}
 
-const NavLink: React.FunctionComponent<NavLinkProps> = () => {
+const NavLink: FC<NavLinkProps> = () => {
   return (
     <div className={styles.navbarMenu}>
       <Link to="/home" className={styles.navBarLink}>

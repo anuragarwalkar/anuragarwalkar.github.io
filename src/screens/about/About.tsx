@@ -1,5 +1,7 @@
 import React from "react";
 import myPhoto from "../../assets/images/anurag_arwalkar.jpg";
+import { AppLink } from "../../components/AppLink/AppLink";
+import { Description, Links } from "../../constants/AboutMe";
 import environment from "../../environment/environment";
 import useTitle from "../../hooks/useTitle";
 import "./About.scss";
@@ -14,13 +16,7 @@ const About = () => {
       </div>
       <div className="about__info">
         <h1>About Me</h1>
-        <p>
-          I Anurag Self-motivated IT professional with good knowledge and
-          proficiency in HTML, CSS, JavaScript. Expertise in frameworks like
-          React.js, Angular, Node.js and great knowledge of No SQL database like
-          MongoDb as well as strong skills and ability in writing clean and
-          efficient code. check out my work on GitHub.
-        </p>
+        <p>{Description}</p>
         <div className="about__info__download">
           <a
             className="about__info--download-btn btn"
@@ -31,30 +27,9 @@ const About = () => {
           </a>
         </div>
         <div className="about__info__social">
-          <a
-            className="about__info__social--youtube"
-            href="https://www.youtube.com/anuragarwalkar"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <i className="fab fa-youtube fa-lg"></i>
-          </a>
-          <a
-            className="about__info__social--github"
-            href="https://github.com/anuragarwalkar"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <i className="fab fa-github fa-lg"></i>
-          </a>
-          <a
-            className="about__info__social--instagram"
-            href="https://www.instagram.com/anuragarwalkar"
-            rel="noopener noreferrer"
-            target="_blank"
-          >
-            <i className="fab fa-instagram fa-lg"></i>
-          </a>
+          {Links.map((item) => (
+            <AppLink {...item} />
+          ))}
         </div>
       </div>
     </div>
