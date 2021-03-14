@@ -1,5 +1,4 @@
 import React from "react";
-import myPhoto from "../../assets/images/anurag_arwalkar.jpg";
 import { AppLink } from "../../components/AppLink/AppLink";
 import { Description, Links } from "../../constants/AboutMe";
 import environment from "../../environment/environment";
@@ -12,7 +11,7 @@ const About = () => {
   return (
     <div className="about">
       <div className="about__photo">
-        <img src={myPhoto} alt="Anurag Arwalkar" />
+        <img src={environment.profilePic} alt="Anurag Arwalkar" />
       </div>
       <div className="about__info">
         <h1>About Me</h1>
