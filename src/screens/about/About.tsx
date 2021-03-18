@@ -1,4 +1,4 @@
-import React from "react";
+import React, { useState } from "react";
 import { AppLink } from "../../components/AppLink/AppLink";
 import { Description, Links } from "../../constants/AboutMe";
 import environment from "../../environment/environment";
@@ -8,13 +8,18 @@ import "./About.scss";
 const About = () => {
   useTitle("About");
 
+  const [myData, setMyState] = useState(0);
+
   return (
     <div className="about">
       <div className="about__photo">
         <img src={environment.profilePic} alt="Anurag Arwalkar" />
       </div>
       <div className="about__info">
-        <h1>About Me</h1>
+        <h1>About Me arwalkar adsasd {myData}</h1>
+        <button onClick={() => setMyState((item) => item + 1)}>
+          Increment
+        </button>
         <p>{Description}</p>
         <div className="about__info__download">
           <a

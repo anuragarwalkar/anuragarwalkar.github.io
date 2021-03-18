@@ -16,7 +16,10 @@
     "node-sass": "^4.14.1",
     "prop-types": "^15.7.2",
     "react": "^17.0.0",
+    "react-app-rewire-hot-loader": "^2.0.1",
+    "react-app-rewired": "^2.1.8",
     "react-dom": "^17.0.0",
+    "react-hot-loader": "^4.13.0",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.3",
     "typescript": "^3.7.5",
@@ -35,11 +38,11 @@
   },
   "scripts": {
     "predeploy": "npm run build",
-    "start": "react-scripts start",
+    "start": "react-app-rewired start",
+    "build": "react-app-rewired build",
+    "eject": "react-app-rewired eject",
     "deploy": "gh-pages -d build",
-    "build": "react-scripts build",
-    "test": "react-scripts test",
-    "eject": "react-scripts eject"
+    "test": "react-scripts test"
   },
   "eslintConfig": {
     "extends": "react-app"

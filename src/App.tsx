@@ -1,4 +1,5 @@
 import React, { Fragment, lazy, Suspense } from "react";
+import { hot } from "react-hot-loader/root";
 import { Redirect, Route } from "react-router-dom";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
@@ -24,4 +25,4 @@ const App = () => {
   );
 };
 
-export default App;
+export default process.env.NODE_ENV === "development" ? hot(App) : App;
