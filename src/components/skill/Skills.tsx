@@ -16,14 +16,13 @@ interface SkillItem {
 const skillItems: SkillItem[] = [
   { name: "React", id: 1, img: reactImage, width: "50" },
   { name: "Angular", id: 2, img: angularImage, width: "50" },
-  { name: "Node.js", id: 3, img: nodeImage, width: "80" },
   { name: "Flutter", id: 4, img: flutterImage, width: "100" },
+  { name: "Node.js", id: 3, img: nodeImage, width: "80" },
 ];
 
 const Skills = () => {
   return (
     <div id="#skills" className={styles.mainContainer}>
-      <div>Skills</div>
       <div className={styles.skillsContainer}>
         {skillItems.map((skillItem: SkillItem) => (
           <Skill

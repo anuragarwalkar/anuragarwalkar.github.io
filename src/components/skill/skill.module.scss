@@ -1,9 +1,11 @@
 .mainContainer {
-  width: 40vw;
-  justify-content: space-evenly;
+  display: flex;
+  justify-content: center;
 }
 
 .skillsContainer {
+  width: 40vw;
   display: flex;
   align-items: center;
+  justify-content: space-between;
 }
