@@ -9,7 +9,7 @@ const About = () => {
   useTitle("About");
 
   return (
-    <div className="about">
+    <div className="about" id="#about">
       <div className="about__photo">
         <img src={environment.profilePic} alt="Anurag Arwalkar" />
       </div>

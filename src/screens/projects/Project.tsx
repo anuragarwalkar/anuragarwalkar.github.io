@@ -4,7 +4,7 @@ import useTitle from "../../hooks/useTitle";
 const Project: FC<{}> = (props) => {
   useTitle("Projects");
 
-  return <div>projects screen</div>;
+  return <div id="#about">projects screen</div>;
 };
 
 export default Project;
