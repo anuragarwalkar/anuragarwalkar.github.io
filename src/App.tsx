@@ -1,8 +1,7 @@
 import React, { Fragment } from "react";
 import Footer from "./components/footer/Footer";
 import Navbar from "./components/navbar/Navbar";
-import Project from "./components/projects/Project";
-import Skills from "./components/skill/Skills";
+import Projects from "./components/projects/Projects";
 import About from "./screens/about/About";
 
 const App = () => {
@@ -10,8 +9,8 @@ const App = () => {
     <Fragment>
       <Navbar></Navbar>
       <About />
-      <Skills />
-      <Project />
+      <div>Projects</div>
+      <Projects />
       <Footer></Footer>
     </Fragment>
   );

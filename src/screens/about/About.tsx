@@ -1,5 +1,6 @@
 import React from "react";
 import { AppLink } from "../../components/AppLink/AppLink";
+import Skills from "../../components/skill/Skills";
 import { Description, Links } from "../../constants/AboutMe";
 import environment from "../../environment/environment";
 import useTitle from "../../hooks/useTitle";
@@ -14,8 +15,9 @@ const About = () => {
         <img src={environment.profilePic} alt="Anurag Arwalkar" />
       </div>
       <div className="about__info">
-        <h1>About Me</h1>
+        <h1>About Me 👋</h1>
         <p>{Description}</p>
+        <Skills />
         <div className="about__info__download">
           <a
             className="about__info--download-btn btn"
