@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/static/css/main.08117ef8.chunk.css",
-    "main.js": "/static/js/main.fd8ef420.chunk.js",
-    "main.js.map": "/static/js/main.fd8ef420.chunk.js.map",
+    "main.css": "/static/css/main.127ae808.chunk.css",
+    "main.js": "/static/js/main.3deb89af.chunk.js",
+    "main.js.map": "/static/js/main.3deb89af.chunk.js.map",
     "runtime-main.js": "/static/js/runtime-main.9fb8610e.js",
     "runtime-main.js.map": "/static/js/runtime-main.9fb8610e.js.map",
     "static/css/2.1ee0768e.chunk.css": "/static/css/2.1ee0768e.chunk.css",
@@ -12,18 +12,22 @@
     "service-worker.js": "/service-worker.js",
     "service-worker.js.map": "/service-worker.js.map",
     "static/css/2.1ee0768e.chunk.css.map": "/static/css/2.1ee0768e.chunk.css.map",
-    "static/css/main.08117ef8.chunk.css.map": "/static/css/main.08117ef8.chunk.css.map",
+    "static/css/main.127ae808.chunk.css.map": "/static/css/main.127ae808.chunk.css.map",
     "static/js/2.26328330.chunk.js.LICENSE.txt": "/static/js/2.26328330.chunk.js.LICENSE.txt",
     "static/media/Google-flutter-logo.99b29fec.png": "/static/media/Google-flutter-logo.99b29fec.png",
     "static/media/Node.js_logo.c2e22c63.png": "/static/media/Node.js_logo.c2e22c63.png",
     "static/media/React.js_logo-512.dd495beb.png": "/static/media/React.js_logo-512.dd495beb.png",
-    "static/media/all.css": "/static/media/fa-solid-900.aa3d17e7.svg"
+    "static/media/chat_buddy.d60c9de1.png": "/static/media/chat_buddy.d60c9de1.png",
+    "static/media/all.css": "/static/media/fa-solid-900.aa3d17e7.svg",
+    "static/media/npm.57f5819b.jpg": "/static/media/npm.57f5819b.jpg",
+    "static/media/space-x.20da26b3.png": "/static/media/space-x.20da26b3.png",
+    "static/media/weather_app.b8621e52.png": "/static/media/weather_app.b8621e52.png"
   },
   "entrypoints": [
     "static/js/runtime-main.9fb8610e.js",
     "static/css/2.1ee0768e.chunk.css",
     "static/js/2.26328330.chunk.js",
-    "static/css/main.08117ef8.chunk.css",
-    "static/js/main.fd8ef420.chunk.js"
+    "static/css/main.127ae808.chunk.css",
+    "static/js/main.3deb89af.chunk.js"
   ]
 }
