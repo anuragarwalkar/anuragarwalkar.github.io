@@ -9,7 +9,7 @@ const App = () => {
     <Fragment>
       <Navbar></Navbar>
       <About />
-      <div>Projects</div>
+      <div style={{ fontWeight: "bold", fontSize: "1.5rem" }}>Projects</div>
       <Projects />
       <Footer></Footer>
     </Fragment>
