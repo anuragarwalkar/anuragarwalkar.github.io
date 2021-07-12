@@ -7,7 +7,7 @@ const skill: FC<{ name: string; src: string; width: string }> = ({
   width,
 }) => {
   return (
-    <div>
+    <div style={{ padding: "0.5rem" }}>
       <img className={styles.skill} width={width} src={src} alt={name} />
     </div>
   );

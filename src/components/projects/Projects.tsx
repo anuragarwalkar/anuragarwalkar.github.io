@@ -4,6 +4,7 @@ import npmCreateNode from "../../assets/img/npm.jpg";
 import spaceX from "../../assets/img/space-x.png";
 import weatherApp from "../../assets/img/weather_app.png";
 import useTitle from "../../hooks/useTitle";
+import styles from "./project.module.scss";
 
 interface ProjectItem {
   name: string;
@@ -54,38 +55,40 @@ const Project: FC<{
   img: string;
   link: string;
 }> = (props) => {
+  const onNaviate = (url: string) => {
+    window.open(url, "_blank");
+  };
+
   return (
-    <article style={{ width: 280 }}>
-      <img
-        src={props.img}
-        style={{ width: 280, height: 180, objectFit: "cover" }}
-        alt={props.name}
-      />
-      <div style={{ fontWeight: "bold", marginBottom: "2px" }}>
-        {props.name}
-      </div>
-      <div style={{ opacity: 0.8 }}>{props.description}</div>
+    <article
+      onClick={() => onNaviate(props.link)}
+      className={styles.mainArticle}
+    >
+      <img src={props.img} className={styles.articleImage} alt={props.name} />
+      <div className={styles.articleBody}>{props.name}</div>
+      <div className={styles.articleDescription}>{props.description}</div>
       <a href={props.link}>👉 Live Url</a>
     </article>
   );
 };
 
-const Projects: FC<{}> = (props) => {
+const Projects: FC<{}> = () => {
   useTitle("Projects");
 
   return (
-    <div
-      id="#projects"
-      style={{ display: "flex", justifyContent: "space-between" }}
-    >
-      {projectItems.map((item) => (
-        <Project
-          link={item.url}
-          name={item.name}
-          description={item.description}
-          img={item.src}
-        />
-      ))}
+    <div>
+      <div className={styles.projectTitle}>Projects</div>
+      <div id="#projects" className={styles.projects}>
+        {projectItems.map((item) => (
+          <Project
+            key={item.key}
+            link={item.url}
+            name={item.name}
+            description={item.description}
+            img={item.src}
+          />
+        ))}
+      </div>
     </div>
   );
 };
