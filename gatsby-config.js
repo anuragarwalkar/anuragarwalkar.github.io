@@ -3,5 +3,9 @@ module.exports = {
     siteUrl: "https://anuragarwalkar.github.io/",
     title: "Anurag-Portfolio",
   },
-  plugins: ["gatsby-plugin-react-helmet"],
+  plugins: [
+    "gatsby-plugin-react-helmet",
+    "gatsby-plugin-typescript",
+    "gatsby-plugin-sass",
+  ],
 };
