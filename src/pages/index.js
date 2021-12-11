@@ -7,9 +7,7 @@ import AppMainHeader from "../MainHeader";
 const IndexPage = () => {
   return (
     <main>
-      <AppMainHeader />
-      <Header />
-      <MainBody />
+      <div>hello</div>
     </main>
   );
 };
