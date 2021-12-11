@@ -1,4 +1,4 @@
-import React from "react";
+import React, { Fragment } from "react";
 import Header from "../components/Header/header";
 import MyInfo from "../components/MyInfo/MyInfo";
 import "../scss/main.scss";
@@ -6,11 +6,11 @@ import "../scss/main.scss";
 // markup
 const IndexPage = () => {
   return (
-    <main>
+    <Fragment>
       <Header />
       <MyInfo />
       {/* <div>Index Page</div> */}
-    </main>
+    </Fragment>
   );
 };
 

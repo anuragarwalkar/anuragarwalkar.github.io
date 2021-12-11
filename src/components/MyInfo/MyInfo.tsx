@@ -1,12 +1,16 @@
 import React from "react";
-// import backgroundImage from '../../static/images/cc-bg-1.jpg';
+import backgroundImage from "../../static/images/cc-bg-1.jpg";
+import "./myInfo.scss";
+
+const imgStyle = {
+  backgroundImage: `url(${backgroundImage})`,
+};
 
 function MyInfo() {
   return (
-    <div
-      className="myInfo"
-      // style={{ backgroundImage: `url(${backgroundImage})` }}
-    ></div>
+    <div className="myInfo">
+      <div className="myInfo__img" style={imgStyle}></div>
+    </div>
   );
 }
 

@@ -7,10 +7,15 @@
   font-family: "Montserrat", "Helvetica Neue", Arial, sans-serif;
   justify-content: space-between;
   align-items: center;
-  padding: 1rem;
+  padding: 1.8rem 2.3rem;
+  font-size: 0.9rem;
+  font-weight: 400;
+  letter-spacing: 1px;
+  line-height: 26px;
   height: 1.3rem;
   text-transform: uppercase;
   color: white;
+  z-index: 100;
 
   &__left {
     flex: 0.8;
