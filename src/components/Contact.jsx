@@ -1,5 +1,4 @@
-import React from 'react';
-
+/* eslint-disable react-refresh/only-export-components */
 import { motion } from "framer-motion";
 
 import { styles } from "../styles";
@@ -8,7 +7,6 @@ import { SectionWrapper } from "../hoc";
 import { slideIn } from "../utils/motion";
 
 const Contact = () => {
- 
 
   return (
     <div

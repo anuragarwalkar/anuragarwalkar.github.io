@@ -104,7 +104,10 @@ const experiences = [
     iconBg: "#383E56",
     date: "Jan 2022 - Current",
     points: [
-      "Developing and maintaining web applications",
+      "Developed an iOS/Android app using React Native for a health and fitness company, delivering digital fitness experiences.",
+      "Revamped the existing Backbone web application to React.js, enhancing performance by 40%.",
+      "Led the revamp of an app from Vue.js to React.js and introduced real-time video calling using WebRTC.",
+      "Mentored junior developers, providing training on React.js, Angular, and Node.js."
     ],
   },
   {
@@ -112,50 +115,54 @@ const experiences = [
     company_name: "Excellarate",
     icon: excellarate,
     iconBg: "#E6DEDD",
-    date: "Dec 2020- Jan 2022",
+    date: "Dec 2020 - Jan 2022",
     points: [
-      "Developing and maintaining web applications",
-     
+      "Built an offline-first, cross-platform mobile app with React Native that dynamically renders UI based on a data dictionary and supports in-app updates.",
+      "Enhanced an Angular app by modularizing it and improving its architecture, resulting in a 20% performance improvement."
     ],
   },
   {
-    title: "Software Developer",
+    title: "Software Engineer",
     company_name: "Zensar Technologies",
     icon: zensar,
     iconBg: "#383E56",
-    date: "Apr 2019- Jan 2020",
+    date: "Apr 2019 - Dec 2020",
     points: [
-      "Developing and maintaining web applications",
+      "Revamped an existing Angular.js project to Angular 6, enhancing front-end performance by 35%.",
+      "Developed a retry queue for file uploads using Cisco's Doc Central API in Node.js to enhance the user experience.",
+      "Created a Microsoft Word scraper from scratch using Node.js to extract and validate DOCX files.",
+      "Developed API endpoints for frontend developers and wrote integration test cases for backend and unit tests for UI.",
+      "Designed CI/CD pipelines using GitHub Actions and mentored junior team members."
     ],
   }
 ];
 
-const testimonials = [
-  {
-    testimonial:
-      "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
-    name: "Sara Lee",
-    designation: "CFO",
-    company: "Acme Co",
-    image: "https://randomuser.me/api/portraits/women/4.jpg",
-  },
-  {
-    testimonial:
-      "I've never met a web developer who truly cares about their clients' success like Rick does.",
-    name: "Chris Brown",
-    designation: "COO",
-    company: "DEF Corp",
-    image: "https://randomuser.me/api/portraits/men/5.jpg",
-  },
-  {
-    testimonial:
-      "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
-    name: "Lisa Wang",
-    designation: "CTO",
-    company: "456 Enterprises",
-    image: "https://randomuser.me/api/portraits/women/6.jpg",
-  },
-];
+// const testimonials = [
+//   {
+//     testimonial:
+//       "I thought it was impossible to make a website as beautiful as our product, but Rick proved me wrong.",
+//     name: "Sara Lee",
+//     designation: "CFO",
+//     company: "Acme Co",
+//     image: "https://randomuser.me/api/portraits/women/4.jpg",
+//   },
+//   {
+//     testimonial:
+//       "I've never met a web developer who truly cares about their clients' success like Rick does.",
+//     name: "Chris Brown",
+//     designation: "COO",
+//     company: "DEF Corp",
+//     image: "https://randomuser.me/api/portraits/men/5.jpg",
+//   },
+//   {
+//     testimonial:
+//       "After Rick optimized our website, our traffic increased by 50%. We can't thank them enough!",
+//     name: "Lisa Wang",
+//     designation: "CTO",
+//     company: "456 Enterprises",
+//     image: "https://randomuser.me/api/portraits/women/6.jpg",
+//   },
+// ];
 
 const projects = [
   {
@@ -182,4 +189,4 @@ const projects = [
 
 ];
 
-export { services, technologies, experiences, testimonials, projects };
+export { services, technologies, experiences, projects };

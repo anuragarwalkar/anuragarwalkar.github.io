@@ -1,4 +1,5 @@
-import React from 'react';
+/* eslint-disable react-refresh/only-export-components */
+/* eslint-disable react/prop-types */
 import Tilt from "react-tilt";
 import { motion } from "framer-motion";
 
@@ -12,13 +13,13 @@ const ServiceCard = ({ index, title, icon }) => (
     <motion.div
       variants={fadeIn("right", "spring", index * 0.5, 0.75)}
       className='w-full green-pink-gradient p-[1px] rounded-[20px] shadow-card'
+      options={{
+        max: 45,
+        scale: 1,
+        speed: 450,
+      }}
     >
       <div
-        options={{
-          max: 45,
-          scale: 1,
-          speed: 450,
-        }}
         className='bg-tertiary rounded-[20px] py-5 px-12 min-h-[280px] flex justify-evenly items-center flex-col'
       >
         <img
